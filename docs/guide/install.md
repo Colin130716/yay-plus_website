@@ -19,6 +19,21 @@ cd yay-plus
 makepkg -sric
 ```
 
+## 直接运行（不推荐，建议用于调试）
+
+```bash
+# 克隆仓库
+git clone https://github.com/Colin130716/yay-plus.git
+cd yay-plus
+
+# 手动安装依赖
+
+sudo pacman -S --needed base-devel git npm figlet lolcat flatpak jq bash
+
+# 运行脚本
+./yay-plus.sh -h
+```
+
 ## 验证安装
 
 ```bash
