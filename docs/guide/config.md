@@ -43,7 +43,7 @@ config_version=4
 
 | 配置项 | 说明 |
 |--------|------|
-| `github_proxy` | 协议类型 (onebot / telegram / discord) |
+| `github_proxy` | Github 代理地址设置 |
 | `go_proxy` | Golang 临时代理设置 |
 | `npm_proxy` | 软件包 npm install 代理开关 |
 | `aur_source` | AUR 包下载源 |
