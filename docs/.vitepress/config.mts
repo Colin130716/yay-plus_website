@@ -4,11 +4,11 @@ export default defineConfig({
   title: "Yay+ Docs",
   description: "一个简单易用的 Arch Linux 包管理器。",
   head: [
-    ['link', { rel: 'icon', href: './favicon.ico' }],
-    ['link', { rel: 'shortcut icon', href: './favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
-    logo: './favicon.ico',
+    logo: '/favicon.ico',
     nav: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/start' },
