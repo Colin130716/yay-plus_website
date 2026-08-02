@@ -27,8 +27,8 @@ git clone https://github.com/Colin130716/yay-plus.git
 cd yay-plus
 
 # 手动安装依赖
-
-sudo pacman -S --needed base-devel git npm figlet lolcat flatpak jq bash
+sudo pacman -S --needed base-devel git flatpak jq bash
+# 可选依赖于 npm、yarn、bun 用于换源
 
 # 运行脚本
 ./yay-plus.sh -h
